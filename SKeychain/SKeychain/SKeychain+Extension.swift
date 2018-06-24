@@ -8,7 +8,7 @@
 
 import LocalAuthentication
 
-extension SKeychain {
+public extension SKeychain {
     public static var hasAuthenticationWithBiometrics: Bool {
         return LAContext().canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: nil)
     }
@@ -18,7 +18,7 @@ extension SKeychain {
             return evaluate(for: .faceID)
         } else {
             // Fallback on earlier versions
-            return false//LAContext().canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: nil)
+            return false
         }
     }
     
