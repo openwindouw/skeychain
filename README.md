@@ -13,7 +13,7 @@ class KeychainWrapper: SKeychain {
     
     static var password: String? {
         get {
-            let value = load(with: "password", prompt: "Autenticarse para iniciar sesión.")
+            let value = load(with: "password", prompt: "Log in")
             return value
         }
         set {
