@@ -1,5 +1,5 @@
 # Skeychain
-Simple Wrapper for Keychain
+Simple wrapper for Keychain commons operations.
 
 ## Example
 
@@ -35,12 +35,12 @@ KeychainWrapper.password = "$up3r$3cr3t"
 ```
 
 ## Install
-Copy the file class into your project. In the future, it'll be a cocoapod.
+Copy the file class into your project. In the future, It'll be a cocoapod.
 
 
 ## Requirements
-- Xcode 9.4
-- Swift 4
+- Xcode 10.2
+- Swift 5
 
 ## Author
 
@@ -50,7 +50,7 @@ Copy the file class into your project. In the future, it'll be a cocoapod.
 
 The MIT License (MIT)
 
-Copyright (c) 2018 Vladimir Espinola Lezcano
+Copyright (c) 2019 Vladimir Espinola Lezcano
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
